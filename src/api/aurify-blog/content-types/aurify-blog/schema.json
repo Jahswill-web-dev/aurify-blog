@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aurify_blogs",
+  "info": {
+    "singularName": "aurify-blog",
+    "pluralName": "aurify-blogs",
+    "displayName": "Aurify-Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "urlSlug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
